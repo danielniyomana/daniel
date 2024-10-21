@@ -1,0 +1,204 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banks{
+    background-color: black;
+    color: orangered;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36, 34, 34);
+    padding: 15px;
+    color: orangered;
+    margin-bottom: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+.logo{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 5px;
+    color: white;
+}
+.home{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.home a{
+    color: orangered;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.moviesite{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+h1{
+    margin-bottom: 30px;
+    color: white;
+}
+p{
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+.genres {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+h3{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.img img{
+    width: 100%;
+    height: 180px;
+}
+.type{
+    height: 50px;
+    text-align: center;
+    background-color: rgb(4, 4, 22);
+    color: white;
+    padding: 10px;
+}
+.topmovies{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.images{
+    width: 300px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.images img{
+    width:150px;
+}
+
+.watch{
+    text-align: center;
+   background-color: rgb(4, 4,22);
+   color: orangered;
+   width: 150px;
+   
+}
+.nom{
+    margin-top: 40px;
+    background-color: orangered;
+    color: black;
+    width: 20px;
+    margin-inline: auto;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 50%;
+
+}
+button{
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.dan{
+    margin-bottom: unset;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+li a{
+    color: white;
+}
+footer{
+    background-color: rgb(29, 28, 28);
+}
+.newsletter{
+    margin-top: 20px;
+    padding: 20px;
+}
+input{
+    width: 400px;
+    padding: 5px;
+}
+.submit{
+    width: unset;
+    padding: 5px;
+    font-size:14px;
+    font-weight: bold;
+}
+i{
+    margin-left: 8px;
+}
+p{
+    color: white;
+}
+span{
+    color: orangered;
+}
+.form{
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 100vh;
+}
+fieldset{
+    width: 400px;
+    border: none;
+}
+.label{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+@media(max-width:768px){
+    body{
+        background-color: white;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
+@media(min-width:769px){
+    body{
+        background-color: white;
+    }
+    nav ul{
+        flex-direction: row;
+    }  
+}
